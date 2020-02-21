@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import Navbar from './components/layout/Navbar';
 import Users from './components/users/Users';
 import Search from './components/users/Search';
-import Aler from './components/layout/Alert';
+import Alert from './components/layout/Alert';
 import axios from 'axios';
 import './App.css';
-import Alert from './components/layout/Alert';
 
 class App extends Component {
   state = {
